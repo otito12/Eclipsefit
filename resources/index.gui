@@ -1,0 +1,59 @@
+<svg>
+  <rect id="background"/>
+  
+  
+  <svg class="tl-header">
+    <use href="#tile-list" id = "tile">
+      <use href="#tile-list-header" class="tile-list-header">
+        <gradientRect x="0" y="0" width="100%" height="100%"
+        gradient-type="bilinear"
+        gradient-x1="5%" gradient-y1="5%"
+        gradient-x2="100%" gradient-y2="80%"
+        gradient-color1="#E0114D"
+        gradient-color2="#FCE7BE"
+        gradient-color3="#231C59"
+        gradient-color4="#E0114D" />
+        <text class="titleText" font-size="20">WELCOME, IT'S MONDAY</text>
+        <text class="subText" font-size="16">LET'S GET ACTIVE</text>
+      </use>
+   
+      <use href="#tile-list-item" class="tile-list-item">
+          <use id="mybutton" href="#push-button" y="1" height="70"
+            fill="white" font-family="Colfax-Regular" font-size="19">
+            <set href="#text" attributeName="text-buffer" to="Today's Workout" />
+            <set href="#text" attributeName="fill" to="black" />
+            <set href="#text" attributeName="y" to="5" />
+            <set href="#text" attributeName="x" to="-127" />
+            <set href="#text" attributeName="text-anchor" to="start" />
+          </use>
+        <image x="250" y="22" width="30" height="30" 
+         href="/mnt/assets/resources/icons/arrow.png" />
+      </use>
+      
+      <use href="#tile-list-item" class="tile-list-item">
+          <use id="mybutton1" href="#push-button" y="3" height="70"
+            fill="white" font-family="Colfax-Regular" font-size="19">
+            <set href="#text" attributeName="text-buffer" to="Select Workout" />
+            <set href="#text" attributeName="fill" to="black" />
+            <set href="#text" attributeName="y" to="5" />
+            <set href="#text" attributeName="x" to="-127" />
+            <set href="#text" attributeName="text-anchor" to="start" />
+          </use>
+        <image x="250" y="22" width="30" height="30" 
+         href="/mnt/assets/resources/icons/arrow.png" />
+      </use>
+      <use href="#tile-list-item" class="tile-list-item">
+          <use id="mybutton2" href="#push-button" y="5" height="70"
+            fill="white" font-family="Colfax-Regular" font-size="19">
+            <set href="#text" attributeName="text-buffer" to="Manage Workout" />
+            <set href="#text" attributeName="fill" to="black" />
+            <set href="#text" attributeName="y" to="5" />
+            <set href="#text" attributeName="x" to="-127" />
+            <set href="#text" attributeName="text-anchor" to="start" />
+          </use>
+        <image x="250" y="22" width="30" height="30" 
+         href="/mnt/assets/resources/icons/arrow.png" />
+      </use>
+    </use>
+ </svg>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "c1b60a44-3cc5-467b-b0e4-2f5dbac6ee74",
+    "appType": "app",
+    "appDisplayName": "PlayGround",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "PlayGround"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

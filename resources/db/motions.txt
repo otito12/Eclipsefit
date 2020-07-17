@@ -1,0 +1,31 @@
+{
+   "upBody":{
+      "dName":"Upper Body",
+      "resist":{
+         "dName":"Resistance",
+         "mtns":{
+            "bicepCurls":{
+               "useCount":0,
+               "dName":"Bicep Curls"
+            },
+            "ovrHdpress":{
+               "useCount":0,
+               "dName":"Overhead Press"
+            }
+         }
+      },
+      "bWeight":{
+         "dName":"Body Weight",
+         "mtns":{
+            "pshUps":{
+               "useCount":0,
+               "dName":"Push Ups"
+            },
+            "tricDip":{
+               "useCount":0,
+               "dName":"Tricep Dips"
+            }
+         }
+      }
+   }
+}
